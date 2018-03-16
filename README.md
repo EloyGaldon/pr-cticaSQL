@@ -1,1 +1,1 @@
-# pr-cticaSQL
+# practicaSQL
