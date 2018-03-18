@@ -34,7 +34,7 @@
 		</ul>
 </ul>
 
-	<p><strong>CREATE TABLE clientes(</strong></p>
+<p><strong>CREATE TABLE clientes(</strong></p>
 	<p><strong>id integer unsigned ZEROFILL AUTO_INCREMENT,</strong></p>
     	<p><strong>nombre varchar(50),</strong></p>
 	<p><strong>apellidos varchar(50),</strong></p>
@@ -62,7 +62,7 @@
 	<li>codigoCliente *Integer *Forgein key clientes(id)</li>
 </ul>
 
-	<p><strong>CREATE TABLE viajes(</strong></p>
+<p><strong>CREATE TABLE viajes(</strong></p>
 	<p><strong>id integer unsigned ZEROFILL AUTO_INCREMENT,</strong></p>
     	<p><strong>titulo varchar(50),</strong></p>
 	<p><strong>descripcion varchar(150),</strong></p>
@@ -75,11 +75,11 @@
 <h3>LENGUAJE DML</h3>
 <p>1. Utilizando la base de datos Sakila (BD de Pruebas de MySQL) Extraer todos los actores de la tabla actors.</p>
 
-		<p><strong>SELECT * from actor</strong></p>
+<p><strong>SELECT * from actor</strong></p>
 	
 <p>2. De la tabla actors queremos conocer todos los nombres existentes en la tabla sin que se repita para ello utilizaremos DISTINCT.</p>
 
-		<p><strong>SELECT DISTINCT(first_name) from actor</strong></p>
+<p><strong>SELECT DISTINCT(first_name) from actor</strong></p>
 
 <p>3. De la tabla film queremos obtener una relación de películas que cumplan las siguientes características:</p>
 <ul>
