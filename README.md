@@ -88,10 +88,10 @@
 <li>rental_duration = 6</li>
 <li>rental_rate >=2.99</li>
 </ul>
-<p style="color: #006666;padding-left: 2vw">SELECT * FROM film WHERE rental_duration=6 and rental_rate>=2.99</p>
-<p>4. De la tabla film queremos obtener una relación de la películas que tengan un replacement_cost entre 15.99 y 22.99</p>
+<strong>SELECT * FROM film WHERE rental_duration=6 and rental_rate>=2.99</strong>
+4. De la tabla film queremos obtener una relación de la películas que tengan un replacement_cost entre 15.99 y 22.99
 
-	<p style="color: #006666;padding-left: 2vw">SELECT * FROM film WHERE replacement_cost BETWEEN 15.99 AND 22.99</p>
+SELECT * FROM film WHERE replacement_cost BETWEEN 15.99 AND 22.99
 	
 
 <p>5. Queremos Obtener todos los customers mediante el filtro de pertenencia a conjuntos IN que cumpla los siguientes requisitos.</p>
