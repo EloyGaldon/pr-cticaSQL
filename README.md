@@ -89,7 +89,7 @@
 <li>rental_rate >=2.99</li>
 </ul>
 <strong>SELECT * FROM film WHERE rental_duration=6 and rental_rate>=2.99</strong>
-4. De la tabla film queremos obtener una relación de la películas que tengan un replacement_cost entre 15.99 y 22.99
+<p>4. De la tabla film queremos obtener una relación de la películas que tengan un replacement_cost entre 15.99 y 22.99</p>
 
 SELECT * FROM film WHERE replacement_cost BETWEEN 15.99 AND 22.99
 	
